@@ -30,7 +30,7 @@ int main()
 
 }
 	cout << "the total of connected Components=" << z - 1 << endl;
-	imshow("d", d);
+	imshow("d", d); 
 	waitKey(0);
 
     return 0;
