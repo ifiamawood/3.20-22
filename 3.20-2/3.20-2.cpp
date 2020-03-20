@@ -16,7 +16,7 @@ int main()
 	cv::threshold(a, d, 0, 255, THRESH_OTSU);
 	int z = cv::connectedComponentsWithStats(d,
 		out,
-		s, 
+		s,  
 		e, 
 		8,
 		CV_32S);
