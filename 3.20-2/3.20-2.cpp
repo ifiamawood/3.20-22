@@ -17,7 +17,7 @@ int main()
 	int z = cv::connectedComponentsWithStats(d,
 		out,
 		s,
-		e,
+		e, 
 		8,
 		CV_32S);
 	for (int i = 0; i < z; i++) {
