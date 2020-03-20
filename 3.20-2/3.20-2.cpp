@@ -26,7 +26,7 @@ int main()
 		b.y = s.at<int>(i, 1);
 		b.width = s.at<int>(i, 2);
 		b.height = s.at<int>(i, 3);
-		rectangle(d, b, CV_RGB(255, 255, 255), 1, 8, 0);
+		rectangle(d, b, CV_RGB(255, 255, 255), 1, 8, 0); 
 
 
 }
